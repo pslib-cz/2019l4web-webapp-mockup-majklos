@@ -1,15 +1,162 @@
 <!DOCTYPE html>
 <html lang="cs">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="game.css">
+    <link rel="icon" href="./sources/ludo.png">
     <title>Člověče, nezlob se</title>
 </head>
 
 <body>
-    
+    <h1>ČLOVĚČE, NEZLOB SE</h1>
+    <h2>Michal Skřivánek | 2020</h2>
+
+    <div class="game">
+        <div class="house green">
+            <div class="box">
+                <div class="radius radius-one green"></div>
+                <div class="radius radius-two green"></div>
+                <div class="radius radius-three green"></div>
+                <div class="radius radius-four green"></div>
+            </div>
+        </div>
+
+        <div class="house blue" style="right: 0">
+            <div class="box">
+                <div class="radius radius-one blue"></div>
+                <div class="radius radius-two blue"></div>
+                <div class="radius radius-three blue"></div>
+                <div class="radius radius-four blue"></div>
+            </div>
+        </div>
+
+        <div class="house red" style="bottom: 0">
+            <div class="box">
+                <div class="radius radius-one red"></div>
+                <div class="radius radius-two red"></div>
+                <div class="radius radius-three red"></div>
+                <div class="radius radius-four red"></div>
+            </div>
+        </div>
+
+        <div class="house yellow" style="bottom: 0;right: 0">
+            <div class="box">
+                <div class="radius radius-one yellow"></div>
+                <div class="radius radius-two yellow"></div>
+                <div class="radius radius-three yellow"></div>
+                <div class="radius radius-four yellow"></div>
+            </div>
+        </div>
+
+        <div class="home"></div>
+        <div class="squares" style="top: 40%;"></div>
+        <div class="squares g-start" style="top: 40%;left:6.66%;"></div>
+        <div class="squares" style="top: 40%;left:13.32%;"></div>
+        <div class="squares" style="top: 40%;left:19.98%;"></div>
+        <div class="squares" style="top: 40%;left:26.64%;"></div>
+        <div class="squares" style="top: 40%;left:33.3%;"></div>
+
+        <div class="squares" style="top: 0;left:40%;"></div>
+        <div class="squares" style="top: 6.66%;left:40%;"></div>
+        <div class="squares safe" style="top: 13.32%;left:40%;"></div>
+        <div class="squares" style="top: 19.98%;left:40%;"></div>
+        <div class="squares" style="top: 26.64%;left:40%;"></div>
+        <div class="squares" style="top: 33.3%;left:40%;"></div>
+
+        <div class="squares" style="top: 0;left:46.66%;"></div>
+        <div class="squares blue" style="top: 6.66%;left:46.66%;"></div>
+        <div class="squares blue" style="top: 13.32%;left:46.66%;"></div>
+        <div class="squares blue" style="top: 19.98%;left:46.66%;"></div>
+        <div class="squares blue" style="top: 26.64%;left:46.66%;"></div>
+        <div class="squares blue" style="top: 33.3%;left:46.66%;"></div>
+
+        <div class="squares" style="top: 0;left:53.32%;"></div>
+        <div class="squares b-start" style="top: 6.66%;left:53.32%;"></div>
+        <div class="squares" style="top: 13.32%;left:53.32%;"></div>
+        <div class="squares" style="top: 19.98%;left:53.32%;"></div>
+        <div class="squares" style="top: 26.64%;left:53.32%;"></div>
+        <div class="squares" style="top: 33.3%;left:53.32%;"></div>
+
+        <div class="squares" style="top: 40%; right: 33.3%"></div>
+        <div class="squares" style="top: 40%;right:26.64%;"></div>
+        <div class="squares" style="top: 40%;right:19.98%;"></div>
+        <div class="squares safe" style="top: 40%;right:13.32%;"></div>
+        <div class="squares" style="top: 40%;right:6.66%;"></div>
+        <div class="squares" style="top: 40%;right:0;"></div>
+
+        <div class="squares yellow" style="top: 46.66%; right: 33.3%"></div>
+        <div class="squares yellow" style="top: 46.66%;right:26.64%;"></div>
+        <div class="squares yellow" style="top: 46.66%;right:19.98%;"></div>
+        <div class="squares yellow" style="top: 46.66%;right:13.32%;"></div>
+        <div class="squares yellow" style="top: 46.66%;right:6.66%;"></div>
+        <div class="squares" style="top: 46.66%;right:0;"></div>
+
+        <div class="squares" style="top: 53.32%; right: 33.3%"></div>
+        <div class="squares" style="top: 53.32%;right:26.64%;"></div>
+        <div class="squares" style="top: 53.32%;right:19.98%;"></div>
+        <div class="squares" style="top: 53.32%;right:13.32%;"></div>
+        <div class="squares y-start" style="top: 53.32%;right:6.66%;"></div>
+        <div class="squares" style="top: 53.32%;right:0;"></div>
+
+        <div class="squares" style="bottom: 0;left:53.32%;"></div>
+        <div class="squares" style="bottom: 6.66%;left:53.32%;"></div>
+        <div class="squares safe" style="bottom: 13.32%;left:53.32%;"></div>
+        <div class="squares" style="bottom: 19.98%;left:53.32%;"></div>
+        <div class="squares" style="bottom: 26.64%;left:53.32%;"></div>
+        <div class="squares" style="bottom: 33.3%;left:53.32%;"></div>
+
+        <div class="squares" style="bottom: 0;left:46.66%;"></div>
+        <div class="squares red " style="bottom: 6.66%;left:46.66%;"></div>
+        <div class="squares red" style="bottom: 13.32%;left:46.66%;"></div>
+        <div class="squares red" style="bottom: 19.98%;left:46.66%;"></div>
+        <div class="squares red" style="bottom: 26.64%;left:46.66%;"></div>
+        <div class="squares red" style="bottom: 33.3%;left:46.66%;"></div>
+
+        <div class="squares" style="bottom: 0;left:40%;"></div>
+        <div class="squares r-start" style="bottom: 6.66%;left:40%;"></div>
+        <div class="squares" style="bottom: 13.32%;left:40%;"></div>
+        <div class="squares" style="bottom: 19.98%;left:40%;"></div>
+        <div class="squares" style="bottom: 26.64%;left:40%;"></div>
+        <div class="squares" style="bottom: 33.3%;left:40%;"></div>
+
+        <div class="squares" style="top: 53.32%; left: 33.3%"></div>
+        <div class="squares" style="top: 53.32%;left:26.64%;"></div>
+        <div class="squares" style="top: 53.32%;left:19.98%;"></div>
+        <div class="squares safe" style="top: 53.32%;left:13.32%;"></div>
+        <div class="squares" style="top: 53.32%;left:6.66%;"></div>
+        <div class="squares" style="top: 53.32%;left:0;"></div>
+
+        <div class="squares green" style="top: 46.66%;left: 33.3%"></div>
+        <div class="squares green" style="top: 46.66%;left:26.64%;"></div>
+        <div class="squares green" style="top: 46.66%;left:19.98%;"></div>
+        <div class="squares green" style="top: 46.66%;left:13.32%;"></div>
+        <div class="squares green" style="top: 46.66%;left:6.66%;"></div>
+        <div class="squares" style="top: 46.66%;left:0;"></div>
+
+        <div class="figure g-figure"></div>
+        <div class="figure g-figure" style="left: 125px;"></div>
+        <div class="figure g-figure" style="top: 111px;"></div>
+        <div class="figure g-figure" style="top: 111px;left: 125px;"></div>
+
+        <div class="figure r-figure"></div>
+        <div class="figure r-figure" style="left:125px"></div>
+        <div class="figure r-figure" style="bottom: 137px;"></div>
+        <div class="figure r-figure" style="bottom: 137px; left: 125px;"></div>
+
+        <div class="figure y-figure"></div>
+        <div class="figure y-figure" style="right: 125px;"></div>
+        <div class="figure y-figure" style="bottom: 137px;"></div>
+        <div class="figure y-figure" style="bottom: 137px; right: 125px;"></div>
+
+        <div class="figure b-figure"></div>
+        <div class="figure b-figure" style="right: 125px;"></div>
+        <div class="figure b-figure" style="top: 111px;"></div>
+        <div class="figure b-figure" style="top: 111px;right: 125px;"></div>
+    </div>
+
 </body>
 
-<footer>Michal Skřivánek | 2020</footer>
 </html>

@@ -26,8 +26,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="28.794087"
-     inkscape:cx="-0.51145045"
-     inkscape:cy="11.572643"
+     inkscape:cx="9.9674164"
+     inkscape:cy="10.620819"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -40,7 +40,8 @@
      inkscape:window-height="1013"
      inkscape:window-x="-9"
      inkscape:window-y="-9"
-     inkscape:window-maximized="1" />
+     inkscape:window-maximized="1"
+     showborder="false" />
   <metadata
      id="metadata7">
     <rdf:RDF>
@@ -59,10 +60,10 @@
      id="layer1"
      transform="translate(-58.055796,-109.1765)">
     <path
-       style="fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 63.353794,129.09513 c 1.124953,2.72301 10.412126,2.69519 11.535676,0.0535 2.067257,-4.86019 -4.627367,-11.97887 -4.627367,-11.97887 1.255628,-1.75107 5.047739,-7.91208 -1.666655,-7.95025 -6.10272,-0.0354 -4.5665,5.41423 -2.117444,7.87442 0,0 -5.310359,5.91282 -3.12421,12.00102 z"
+       style="fill:#36803a;fill-opacity:0.98823529;fill-rule:evenodd;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 63.353794,129.09513 c 1.124953,2.72301 10.412126,2.69519 11.535676,0.0535 2.067257,-4.86019 -3.793863,-12.11779 -3.793863,-12.11779 1.255628,-1.75107 4.49207,-7.73843 -2.222324,-7.7766 -6.10272,-0.0354 -4.844335,5.3795 -2.395279,7.83969 0,0 -5.310359,5.91282 -3.12421,12.00102 z"
        id="path4147"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cscscc" />
+       sodipodi:nodetypes="cscsccc" />
   </g>
 </svg>
