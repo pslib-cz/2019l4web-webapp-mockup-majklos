@@ -18,3 +18,4 @@
 
 ## SOUBORY
 - Ve složce ***sources*** najdete podklady k této hře.
+- Ve složce ***styles*** jsou umístěny css soubory k jednotlivým stránkám.
