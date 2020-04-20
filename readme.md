@@ -1,6 +1,6 @@
 # ČLOVĚČE, NEZLOB SE
 
-*Hra pro 2 a více hráčů.*
+*Hra pro 2 až 4 hráče.*
 
 ## PRAVIDLA
 
@@ -15,3 +15,6 @@
 - Cílem hry je dovést své figurky jedné barvy ze startovního pole do cílového domečku. Jde to pouze tak, že figurka musí projít postupně všemi poli.
 
 - Vyhrává ten hráč, který první oběhne hrací pole všemi svými figurkami a umístí je do cílového domečku. Ostatní hráči po té obvykle pokračují ve hře a hrají tak o další pořadí.
+
+## SOUBORY
+- Ve složce ***sources*** najdete podklady k této hře.
